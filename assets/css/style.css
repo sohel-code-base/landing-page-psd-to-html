@@ -1,0 +1,85 @@
+body {
+    max-width: 1900px !important;
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    height: 100%;
+    background: linear-gradient(0deg, rgba(43, 46, 74, 0.9), rgba(43, 46, 74, 0.9)), url("../img/header-bg.jpg") no-repeat center;
+    background-size: cover;
+}
+
+header nav{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+header nav ul{
+    opacity: 0.75;
+}
+
+header .header-heading {
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 1px;
+}
+section#project-area .item {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    height: 100%;
+}
+
+section#project-area .item .overlay {
+    background: rgba(231, 69, 69, 0.9);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+section#project-area .item:hover .overlay {
+    opacity: 1
+}
+
+section#project-area .item img {
+    width: 100%;
+    height: 100%;
+}
+
+section#testimonial-area .carousel-item .text{
+    background-color: rgb(83,53,73);
+}
+section#testimonial-area .carousel-item .text h2{
+    font-family: "Cardo", sans-serif;
+}
+section#testimonial-area .carousel-item .text p.author{
+   font-size: 13px;
+}
+
+section#testimonial-area ol.carousel-indicators{
+   left: 350px;
+}
+section#testimonial-area ol.carousel-indicators li{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+footer{
+    background-color: #393d63;
+}
+footer p{
+    color: rgba(255, 255, 255, 0.5);
+}
+footer .row.bottom{
+    background-color: rgb(49,51, 83);
+}
